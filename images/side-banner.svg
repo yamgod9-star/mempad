@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="720" viewBox="0 0 240 720" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Рекламный баннер MEMпад</title>
+  <desc id="bannerDesc">Вертикальный баннер с текстом «Здесь будет ваша реклама» и логотипом MEMпад.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f0f0f"/>
+      <stop offset="50%" stop-color="#111111"/>
+      <stop offset="90%" stop-color="#050505"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#5DD62C" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#5DD62C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="240" height="720" rx="60" fill="url(#bgGradient)" />
+  <rect x="0" y="0" width="240" height="720" rx="60" fill="url(#glow)" />
+  <g opacity="0.9">
+    <text x="50%" y="195" text-anchor="middle" font-family="Inter, sans-serif" font-size="32" font-weight="800" letter-spacing="-0.04em" fill="#fff">
+      ЗДЕСЬ
+    </text>
+    <text x="50%" y="255" text-anchor="middle" font-family="Inter, sans-serif" font-size="32" font-weight="800" letter-spacing="-0.04em" fill="#fff">
+      БУДЕТ
+    </text>
+    <text x="50%" y="315" text-anchor="middle" font-family="Inter, sans-serif" font-size="32" font-weight="800" letter-spacing="-0.04em" fill="#fff">
+      ВАША
+    </text>
+    <text x="50%" y="375" text-anchor="middle" font-family="Inter, sans-serif" font-size="32" font-weight="800" letter-spacing="-0.04em" fill="#fff">
+      РЕКЛАМА
+    </text>
+  </g>
+  <g transform="translate(0, 440)">
+    <rect x="56" y="8" width="128" height="128" rx="32" fill="#0f0f0f" stroke="#5DD62C" stroke-width="3" />
+    <path d="M 84 44 C 84 34, 94 30, 102 30 C 110 30, 120 34, 120 44 C 120 54, 110 58, 102 58 C 94 58, 84 54, 84 44 Z" fill="#5DD62C" />
+    <path d="M 94 98 C 94 86, 104 84, 114 84 C 124 84, 134 86, 134 98 C 134 110, 124 112, 114 112 C 104 112, 94 110, 94 98 Z" fill="#5DD62C" />
+    <rect x="102" y="54" width="8" height="44" rx="4" fill="#5DD62C" />
+    <rect x="118" y="54" width="8" height="44" rx="4" fill="#5DD62C" />
+    <rect x="86" y="54" width="8" height="44" rx="4" fill="#5DD62C" />
+    <text x="50%" y="180" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="800" fill="#fff">MEM</text>
+    <text x="50%" y="215" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="700" fill="#5DD62C">пад</text>
+  </g>
+</svg>
