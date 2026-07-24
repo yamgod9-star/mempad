@@ -55,6 +55,7 @@ body.modal-open { overflow: hidden; }
 }
 
 .left-side-banner {
+  display: none;
   position: fixed;
   left: 13px;
   top: 70%;
