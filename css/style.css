@@ -69,9 +69,10 @@ body.modal-open { overflow: hidden; }
 
 .left-side-banner img {
   display: block;
-  max-height: min(70vh, 420px);
   width: auto;
-  max-width: 240px;
+  height: auto;
+  max-width: none;
+  max-height: none;
 }
 
 #splash-screen.hidden {
