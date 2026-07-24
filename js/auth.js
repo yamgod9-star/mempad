@@ -115,7 +115,7 @@ const Auth = {
       const { data, error } = await supabaseClient.auth.signInWithOAuth({
         provider: 'discord',
         options: {
-          redirectTo: window.location.origin
+          redirectTo: 'https://yamgod9-star.github.io'
         }
       });
 
