@@ -57,7 +57,7 @@ body.modal-open { overflow: hidden; }
 .left-side-banner {
   position: fixed;
   left: 13px;
-  top: 55%;
+  top: 60%;
   transform: translateY(-50%);
   z-index: 10;
   pointer-events: none;
