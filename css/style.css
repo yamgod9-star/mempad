@@ -68,7 +68,7 @@ body.modal-open { overflow: hidden; }
 
 .left-side-banner img {
   display: block;
-  width: 180px;
+  width: 170px;
   height: auto;
   max-width: none;
   max-height: calc(100vh - 80px);
